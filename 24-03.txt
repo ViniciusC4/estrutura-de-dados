@@ -1,0 +1,29 @@
+O que são funções?
+Em C, as funções são blocos de código que realizam uma tarefa
+específica. Eles ajudam a:
+- Reutilizar código
+- Organizar melhor o programa
+- Dividir problemas grandes em partes menores e mais simples de
+entender
+
+Quando usar funções?
+Funções são indicadas quando:
+- Há trechos de código que se repetem.
+- Queremos um dividir o problema em partes menores.
+- É necessário organizar o código para facilitar a manutenção e o
+entendimento.
+
+Vetores
+- Um vetor (ou array) é uma estrutura de dados que armazena
+vários elementos do mesmo tipo (inteiros, floats, char etc.) em
+uma única variável.
+Cada elemento é identificado por um índice, começando do
+zero.
+
+Quando usar vetores?
+Use vetores quando:
+- Precisa armazenar e processar vários dados do mesmo tipo (ex:
+notas, temperaturas, idades).
+- Deseja acessar os dados rapidamente por índice.
+- Quer usar laços de repetição (for/while) para percorrer os
+dados.
