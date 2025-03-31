@@ -12,7 +12,7 @@ Funções são indicadas quando:
 - Queremos um dividir o problema em partes menores.
 - É necessário organizar o código para facilitar a manutenção e o
 entendimento.
-
+---------------------------------------------------------------
 Vetores
 - Um vetor (ou array) é uma estrutura de dados que armazena
 vários elementos do mesmo tipo (inteiros, floats, char etc.) em
@@ -27,3 +27,27 @@ notas, temperaturas, idades).
 - Deseja acessar os dados rapidamente por índice.
 - Quer usar laços de repetição (for/while) para percorrer os
 dados.
+---------------------------------------------------------------
+O que é uma Matriz?
+- Em C, uma matriz é um vetor multidimensional, mais
+especificamente, um vetor de vetores.
+Ou seja, um conjunto de valores organizados em linhas e
+colunas — como se fosse uma tabela
+
+Matrizes com tamanho
+variável (chamadas de VLA – Variable
+Length Arrays) com tamanho definido
+em tempo de execução (C99+):
+Esses nomes se referem aos padrões oficiais da linguagem
+C, criados e atualizados por um órgão chamado ISO
+(Organização Internacional de Padronização).
+Cada vez que o C recebe uma atualização na linguagem,
+com novos recursos e melhorias, é lançado um novo
+padrão com o nome do ano de criação.
+
+Matrizes muito grandes ou mais flexíveis,
+- VLA (Variable Length Arrays) ainda usa a pilha de memória, o que
+pode ser arriscado se os tamanhos forem grandes.
+- Para matrizes muito grandes ou mais flexíveis, o ideal é usar
+alocação dinâmica com ponteiros e malloc() (nível mais
+avançado)

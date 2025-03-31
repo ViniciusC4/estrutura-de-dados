@@ -1,0 +1,77 @@
+Exemplo 1: Boletim Escolar com Matriz Estática 3x3
+#include <stdio.h>
+
+int main() {
+    float notas[3][3];
+
+    printf("Digite as notas dos 3 alunos em 3 matérias:\n");
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            scanf("%f", &notas[i][j]);
+        }
+    }
+
+    printf("Notas cadastradas:\n");
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            printf("%.2f ", notas[i][j]);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+
+
+Exemplo 2: Grade de Horários Escolar (Agenda Semanal)
+#include <stdio.h>
+
+int main() {
+    char grade[5][6][20] = {
+        {"Matemática", "Português", "História", "Geografia", "Inglês", "Física"},
+        {"Química", "Biologia", "Ed. Física", "Matemática", "Português", "Artes"},
+        {"Física", "Química", "História", "Geografia", "Matemática", "Biologia"},
+        {"Inglês", "Português", "Física", "Ed. Física", "Química", "História"},
+        {"Matemática", "Artes", "Geografia", "Biologia", "Português", "Química"}
+    };
+
+    char dias[5][10] = {"Segunda", "Terça", "Quarta", "Quinta", "Sexta"};
+
+    printf("Grade de Horários:\n");
+    for (int i = 0; i < 5; i++) {
+        printf("%s:\n", dias[i]);
+        for (int j = 0; j < 6; j++) {
+            printf("%s ", grade[i][j]);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+
+
+Exemplo 3: Controle de Presença em Sala de Aula
+#include <stdio.h>
+
+int main() {
+    char presenca[4][5];
+
+    printf("Digite a presença (P) ou falta (F) de 4 alunos em 5 dias:\n");
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 5; j++) {
+            scanf(" %c", &presenca[i][j]);
+        }
+    }
+
+    printf("Registro de presença:\n");
+    for (int i = 0; i < 4; i++) {
+        printf("Aluno %d: ", i + 1);
+        for (int j = 0; j < 5; j++) {
+            printf("%c ", presenca[i][j]);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+
