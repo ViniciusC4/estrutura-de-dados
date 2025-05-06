@@ -5,4 +5,7 @@ campos, de tipos diferentes ou iguais, sob um único nome.
 
 Por que usar struct? 
 Benefícios - 
-Organização Clareza | Reutilização | Evolução | Explicação | Deixa os dados relacionados juntos | Facilita entender o que representa cada grupo de dados | Você pode criar vários "alunos", "produtos", "veículos", etc. | Abre caminho para estruturas mais complexas (listas, árvores, etc.
+Organização: Deixa os dados relacionados juntos 
+Clareza: Facilita entender o que representa cada grupo de dados.
+Reutilização:  Você pode criar vários "alunos", "produtos", "veículos", etc.
+Evolução: Abre caminho para estruturas mais complexas (listas, árvores, etc.)
