@@ -1,0 +1,25 @@
+Ponteiros -
+Um ponteiro é uma variável que armazena o endereço de memória de outra 
+variável.
+Enquanto uma variável comum armazena um valor, o ponteiro armazena o 
+"endereço" onde esse valor está.
+Analogia simples:
+Pense em:
+•Uma casa = variável normal
+•Um mapa que mostra o endereço da casa = ponteiro
+Você não está indo direto na casa (valor), mas sim tem um ponteiro para onde ela 
+está.
+ 
+Representação -
+*p → o “asterisco indica ponteiro”
+p=&val → o “&”, significa endereço,  Então o p está apontando para o Endereço da 
+variável “val”.
+Fazemos isso para alocação dinâmica em tempo de execução.  
+
+POR QUE USAMOS PONTEIROS?
+Ponteiros são variáveis que armazenam endereços de memória.
+Ajudam a acessar e modificar dados diretamente.
+Evitam cópias desnecessárias.
+Permitem usar memória de forma dinâmica.
+São base para estruturas como listas, árvores, filas.
+Saber usar ponteiros é dominar a memória do programa.

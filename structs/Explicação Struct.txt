@@ -1,0 +1,8 @@
+Conceitos Iniciais: structs
+ • Uma struct (estrutura) é um tipo de dado definido pelo 
+programador, que agrupa variáveis chamadas membros ou 
+campos, de tipos diferentes ou iguais, sob um único nome.
+
+Por que usar struct? 
+Benefícios - 
+Organização Clareza | Reutilização | Evolução | Explicação | Deixa os dados relacionados juntos | Facilita entender o que representa cada grupo de dados | Você pode criar vários "alunos", "produtos", "veículos", etc. | Abre caminho para estruturas mais complexas (listas, árvores, etc.
